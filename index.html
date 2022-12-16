@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-md-5 px-lg-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="fw-bold fx-4">#</span> Your Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid px-md-5 px-lg-5 d-flex flex-wrap justify-content-between pt-4">
+        <div class="col-12 col-md-8 col-lg-8 rounded">
+            <p class="fs-2 fw-normal m-3">Page Heading <span class="fs-4 fw-normal">Seconary Text</span></p>
+            <div class="card me-2">
+                <div class="img card-img-top col-12"></div>
+                <div class="card-body">
+                    <h5 class="card-title fs-2">Post Title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ipsam quos!
+                        Nulla porro exercitationem temporibus hic quia! Provident, praesentium adipisci? Some quick
+                        example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Read more --></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 rounded">
+            <div class="card m-3">
+                <h5 class="card-header p-3">Search</h5>
+                <div class="card-body">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search for..."
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">Go!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-3">
+                <h5 class="card-header p-3">Categories</h5>
+                <div class="card-body">
+                    <div class="d-flex col-12">
+                        <div class="col-6">
+                            <p class="text-primary">Web Design</p>
+                            <p class="text-primary">HTML</p>
+                            <p class="text-primary">Freebies</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="text-primary">JavaScript</p>
+                            <p class="text-primary">CSS</p>
+                            <p class="text-primary">Tutorials</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-3">
+                <h5 class="card-header p-3">Side Widget</h5>
+                <div class="card-body">
+                    <p class="fs-6">You can Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius tenetur
+                        sed, facere amet tempora.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .img {
+            background-color: grey;
+            height: 300px;
+        }
+    </style>
+</body>
+
+</html>
